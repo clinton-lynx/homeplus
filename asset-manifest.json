@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/homeplus/static/css/main.d645fbdd.css",
+    "main.js": "/homeplus/static/js/main.fc267191.js",
+    "static/media/Poppins-Regular.ttf": "/homeplus/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Quando-Regular.ttf": "/homeplus/static/media/Quando-Regular.4031628b54a63f263311.ttf",
+    "index.html": "/homeplus/index.html",
+    "main.d645fbdd.css.map": "/homeplus/static/css/main.d645fbdd.css.map",
+    "main.fc267191.js.map": "/homeplus/static/js/main.fc267191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d645fbdd.css",
+    "static/js/main.fc267191.js"
+  ]
+}
