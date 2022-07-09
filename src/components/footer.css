@@ -1,0 +1,34 @@
+.footer{
+    margin-top: 4rem;
+    background-color: #E05E36;
+    color: #fff;
+    padding: 2rem 3rem;
+    font-size: 1.3rem;
+}
+.footer--nav--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.copyright{
+width: 49%;
+color:#1D1D1D;
+text-align: right;
+}
+.footer__nav{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 49%;
+}
+.footer__nav--item{
+    text-transform: capitalize;
+}
+
+.reserved{
+    padding: 2rem 0;
+    display: block;
+    color: #1D1D1D;
+    text-align: right;
+}

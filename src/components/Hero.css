@@ -1,0 +1,8 @@
+.hero-wrapper {
+  position: relative;
+}
+.hero-wrapper img {
+  max-width: 100%;
+}
+
+/* still gonna style for search feature  */

@@ -1,0 +1,41 @@
+.form {
+  width: 90%;
+  max-width:600px;
+  min-width:314px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 100%; */
+}
+.input-el {
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  padding: 0.875rem 1.3rem;
+  /* wiz */
+  color:#565656;
+  width: 75%;
+}
+.input-el:focus {
+  outline: none;
+  /* border: none; */
+}
+.btn {
+  border: none;
+  width: 25%;
+  font-size: 1.5rem;
+  padding: 0.875rem 1.3rem;
+  color: #ffffff;
+  background-color: #e05e36;
+}
+@media screen and (max-width:768px){
+  .input-el{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+  .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,111 @@
+/* .customer{
+    /* position: relative; 
+} */
+.cust--form {
+  width: 90%;
+  max-width:600px;
+  min-width:314px;
+border: 1px solid rgba(134, 134, 134, 0.61);
+border-radius: 3px;
+  /* width: 100%; */
+}
+.input-el {
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  padding: 0.875rem 1.3rem;
+  /* wiz */
+  color:#565656;
+  width: 75%;
+}
+.input-el:focus {
+  outline: none;
+  /* border: none; */
+}
+.btn {
+  border: none;
+  width: 25%;
+  font-size: 1.5rem;
+  padding: 0.875rem 1.3rem;
+  color: #ffffff;
+  background-color: #e05e36;
+}
+@media screen and (max-width:768px){
+  .input-el{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+  .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+.customer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.profile--wrapper{
+     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 350px;
+    padding: 1rem 0;
+}
+
+.cust{
+    background-color: #e05e36;
+    padding: 1rem 3rem;
+    color:#ffffff;
+ width: 50%;
+    
+}
+.cust--aside{
+    width: 50%;
+}
+
+.cust--name{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    color: #1D1D1D;
+
+}
+
+.cust--agency{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.cust--star{
+    display: flex;
+    margin-bottom: 25px;
+    width: 20px;
+}
+.cust--review{
+    font-size: 1.5rem;
+
+}
+.review--time{
+    display: block;
+    text-align: right;
+    color: #1D1D1D;
+}
+
+.cust--aside{
+    padding:0 3rem;
+}
+.cust--aside__title{
+    font-size: 2.3rem;
+    color: #1D1D1D;
+}
+
+.cust--aside__text{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.cust--form{
+margin: 4rem 0;
+}
