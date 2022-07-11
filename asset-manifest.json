@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/homeplus/static/css/main.d645fbdd.css",
-    "main.js": "/homeplus/static/js/main.fc267191.js",
+    "main.css": "/homeplus/static/css/main.ffa5555f.css",
+    "main.js": "/homeplus/static/js/main.821dd854.js",
+    "static/media/ikoyi.jpg": "/homeplus/static/media/ikoyi.73908ba33f1647868220.jpg",
+    "static/media/hero-image.jpg": "/homeplus/static/media/hero-image.e7f70466b3e473a32400.jpg",
+    "static/media/card-image.jpg": "/homeplus/static/media/card-image.98da8c4d6df3c7e6414a.jpg",
     "static/media/Poppins-Regular.ttf": "/homeplus/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Quando-Regular.ttf": "/homeplus/static/media/Quando-Regular.4031628b54a63f263311.ttf",
+    "static/media/cust-image.jpg": "/homeplus/static/media/cust-image.ffcaa51f51fc82145fba.jpg",
+    "static/media/bathroom.svg": "/homeplus/static/media/bathroom.6b39a4c69bf1e83164fba99ee1d3bd18.svg",
+    "static/media/sqft.svg": "/homeplus/static/media/sqft.6c4d74063f8d898b41b08e08fae9ac50.svg",
+    "static/media/like.svg": "/homeplus/static/media/like.548e0dc68906f8325162f05ea6c5bda1.svg",
+    "static/media/logo-header.svg": "/homeplus/static/media/logo-header.6b80eb99cb421de6bb2615b6aa92fe82.svg",
+    "static/media/location.svg": "/homeplus/static/media/location.bb35185c3d0a3786ebfd610d9a29bba8.svg",
+    "static/media/bedroom.svg": "/homeplus/static/media/bedroom.a24cdaa83f63a043796b2f6a43d67931.svg",
+    "static/media/star.svg": "/homeplus/static/media/star.2e4ebc431387a8fbff00e861f698b273.svg",
+    "static/media/colored.svg": "/homeplus/static/media/colored.b1f6ff2b68a7eb506d10416bdb4e0362.svg",
     "index.html": "/homeplus/index.html",
-    "main.d645fbdd.css.map": "/homeplus/static/css/main.d645fbdd.css.map",
-    "main.fc267191.js.map": "/homeplus/static/js/main.fc267191.js.map"
+    "main.ffa5555f.css.map": "/homeplus/static/css/main.ffa5555f.css.map",
+    "main.821dd854.js.map": "/homeplus/static/js/main.821dd854.js.map"
   },
   "entrypoints": [
-    "static/css/main.d645fbdd.css",
-    "static/js/main.fc267191.js"
+    "static/css/main.ffa5555f.css",
+    "static/js/main.821dd854.js"
   ]
 }
