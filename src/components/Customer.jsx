@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./customer.css";
+import custImage from "../images/cust-image.jpg";
+import star from "../images/star.svg"
 
-function Customer() {
+function Customer({customer, customerReverse}) {
   let property = "";
   // implementin search feature
   const [input, setInput] = useState("");
@@ -13,21 +15,24 @@ function Customer() {
     property = input;
     console.log(property);
   };
+
+
+
   return (
-    <section className="customer">
+    <section className={customer}>
       <div className="cust">
         <div className="profile--wrapper">
           <div className="cust--image">
-            <img src="./images/cust-image.jpg" alt="customer photo" />
+            <img src={custImage} alt="customer photo" />
           </div>
           <div className="cust--detail">
             <p className="cust--name">daniel craig</p>
             <p className="cust--agency">realtor</p>
           </div>
           <div className="cust--star">
-            <img src="./images/star.svg" alt="star" />
-            <img src="./images/star.svg" alt="star" />
-            <img src="./images/star.svg" alt="star" />
+            <img src={star} alt="star" />
+            <img src={star} alt="star" />
+            <img src={star} alt="star" />
           </div>
         </div>
         <p className="cust--review">

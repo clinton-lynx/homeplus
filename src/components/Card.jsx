@@ -1,15 +1,21 @@
 import React, {useState} from "react";
 import './card.css'
+import cardImage from "../images/card-image.jpg";
+import like from "../images/like.svg";
+import colored from "../images/colored.svg"
+import bedroom from "../images/bedroom.svg";
+import bathroom from "../images/bathroom.svg";
+import sqft from "../images/sqft.svg";
+import location from "../images/location.svg";
 
 
-function Card() {
+function Card({price, desc, address}) {
   const [color, setColor] = useState(true);
 
 
   const changeColor = () =>{
     
     setColor((prev)=>(  prev = !prev
-     
     ));
 console.log(color);    
   }
@@ -30,7 +36,7 @@ console.log(color);
   return (
     <div className="card">
       <div className="card__image-wrapper">
-        <img src="./images/card-image.jpg" alt="card-image" />
+        <img src={cardImage} alt="card-image" />
         <div className="overlay">
           <span className="new">new</span>
           <span className="like">
@@ -38,7 +44,7 @@ console.log(color);
               style={styledIcon}
               onClick={changeColor}
               className="like-image"
-              src="./images/like.svg"
+              src={like}
               alt="like-icon"
             />
             <img
@@ -49,20 +55,20 @@ console.log(color);
               // style={uncolor}
               // onClick={changeUncolor}
               className="like-image"
-              src="./images/colored.svg"
+              src={colored}
               alt="colored"
             />
           </span>
         </div>
       </div>
       <div className="card__description-wrapper">
-        <p className="house--type">house for sale</p>
-        <p className="house--price">$7.5M</p>
+        <p className="house--type">{desc}</p>
+        <p className="house--price">{price}</p>
         <div className="home--description">
           <span className="desc--item">
             <span>
               <img
-                src="./images/bedroom.svg"
+                src={bedroom}
                 className="bedroom"
                 alt="bedroom-icon"
               />
@@ -72,7 +78,7 @@ console.log(color);
           <span className="desc--item">
             <span>
               <img
-                src="./images/bathroom.svg"
+                src={bathroom}
                 className="bathroom"
                 alt="bathroom-icon"
               />
@@ -81,18 +87,18 @@ console.log(color);
           </span>
           <span className="desc--item">
             <span>
-              <img src="./images/sqft.svg" className="sqft" alt="sqft" />
+              <img src={sqft} className="sqft" alt="sqft" />
               1,500 sqft
             </span>
           </span>
           <div className="home--address-wrapper">
             <span className="home--address">
               <img
-                src="./images/location.svg"
+                src={location}
                 className="location"
                 alt="location"
               />
-              143 egbe road ejigbo, lagos state
+             {address}
             </span>
           </div>
         </div>

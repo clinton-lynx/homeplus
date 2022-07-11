@@ -38,5 +38,14 @@
  .list{
     justify-content: center;
 }
+.listing__title{
+    font-size: 2rem;
+    color:#000000;
+    font-weight: 500;
+}
 
+.listing__subtitle{
+    font-size: 1.875rem;
+    color:#616161;
+}
 } 

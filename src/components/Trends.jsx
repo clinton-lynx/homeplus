@@ -1,11 +1,12 @@
 import React from 'react'
 import './trends.css'
+import ikoyi from "../images/ikoyi.jpg"
 
 function Trends() {
     return (
       <section className="trends">
         <div className="trends-wrapper">
-          <img src="./images/ikoyi.jpg" alt="" />
+          <img src={ikoyi} alt="" />
           <div className="btn--wrapper">
             <div className="trends--desc--wrapper">
               <h3 className="trends--desc">

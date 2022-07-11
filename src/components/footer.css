@@ -32,3 +32,10 @@ text-align: right;
     color: #1D1D1D;
     text-align: right;
 }
+@media screen and (max-width: 768px) {
+    .footer__nav{
+        text-align: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

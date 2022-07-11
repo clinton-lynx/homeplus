@@ -5,8 +5,8 @@ function Review() {
     return (
       <section className="review">
         <h1 className="title">Customers Reviews</h1>
-        <Customer />
-        <Customer  />
+        <Customer customer={"customer"} />
+        <Customer customer={"customerReverse"} />
       </section>
     );
 }

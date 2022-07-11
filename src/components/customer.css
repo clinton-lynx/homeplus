@@ -45,6 +45,14 @@ border-radius: 3px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.customerReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .profile--wrapper{
@@ -61,7 +69,8 @@ border-radius: 3px;
     padding: 1rem 3rem;
     color:#ffffff;
  width: 50%;
-    
+ min-width: 300px;
+    /* flex: 0 1 300px;  */
 }
 .cust--aside{
     width: 50%;
@@ -108,4 +117,41 @@ border-radius: 3px;
 
 .cust--form{
 margin: 4rem 0;
+}
+
+@media screen and (max-width: 768px) {
+ 
+.cust{
+padding:.5rem 1rem;
+ width: 100%;
+
+}
+.cust--aside{
+padding:.5rem .75rem;
+    width: 100%;
+}
+.cust--name{
+    font-size: 1.7rem;
+}   
+.cust--form{
+    min-width: 255px;
+
+}
+.cust--aside__text{
+    font-size: 1.35rem;
+}
+.cust--aside__title{
+    font-size: 1.875rem;
+}
+.cust--agency{
+    font-size: 1.45rem;
+}
+.cust--star{
+    display: none;
+}
+.cust--review{
+    font-weight: 400;
+    font-size: 1.35rem;
+}
+
 }

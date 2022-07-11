@@ -19,6 +19,7 @@
 .trends--desc--wrapper{
     position: absolute;
     text-align: center;
+    width: 100%;
     top: 50%;
     left:50%;
     color: #FFFFFF;
@@ -37,4 +38,22 @@
     border-radius: 35px;
     padding:1rem 1.875rem;
 
+}
+
+@media screen and (max-width: 760px) {
+ .trends--desc{
+ font-size: 1.8rem;
+ font-weight: 400;
+ width:100%;
+ padding: 1rem 0;   
+}
+.trends--btn{
+    font-size: 1.45rem;
+    border-radius: 27px;
+    padding:.675rem 1.435rem;
+
+}
+.btn--wrapper{ 
+height: 95%;
+}   
 }
